@@ -1,0 +1,55 @@
+.app{
+  text-align:center;
+  font-family:sans-serif;
+  padding:2rem;
+  }
+.todo-form {
+  margin-bottom:1.5rem;
+}
+.todo-form input{
+  padding:0.5rem;
+  margin:0.3rem;
+  border-radius:4px;
+  border:1px solid #ccc;
+}
+.todo-form button{
+   padding: 0.5rem 1rem;
+  background:#007bff;
+  color:white;
+  border:none;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+.todo-list{
+  list-style: none;
+  padding:0;
+}
+
+.todo-item{
+  background:#f8f9fa;
+  border-radius:8px;
+  margin:0.5rem auto;
+  padding:1rem;
+  width:80%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+  .actions button{
+  margin-left:0.5rem;
+  padding:0.4rem 0.7rem;
+  border:none;
+  border-radius: 4px;
+  cursor:pointer;
+}
+.actions button:first-child{
+  background: #ffc107;
+}
+
+.actions button:last-child {
+  background: #dc3545;
+  color: white;
+}
