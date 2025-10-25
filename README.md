@@ -50,49 +50,49 @@ I used **CORS** so the React frontend (hosted on Netlify) can talk to the backen
 
 ## ⚙️ How to run locally
 
-If u want to run this project on ur computer, here’s how:
+-If u want to run this project on ur computer, here’s how:
 
-1️⃣ Clone the repo:
+-1️⃣ Clone the repo:
+-git clone https://github.com/your-username/FULLSTACK-TODO-APP.git
 
-git clone https://github.com/your-username/FULLSTACK-TODO-APP.git
-2️⃣ Install dependencies:
+-2️⃣ Install dependencies:
+-bash
+-Copy code
+-cd backend
+-npm install
+-cd ../frontend
+-npm install
 
-bash
-Copy code
-cd backend
-npm install
-cd ../frontend
-npm install
+-3️⃣ Create a .env file in the backend folder:
 
-3️⃣ Create a .env file in the backend folder:
+-PORT=5000
+-MONGO_URI=your-mongodb-uri-here
 
-PORT=5000
-MONGO_URI=your-mongodb-uri-here
+-4️⃣ Run backend:
 
-4️⃣ Run backend:
+-bash
+-Copy code
+-cd backend
+-npm run dev
 
-bash
-Copy code
-cd backend
-npm run dev
-5️⃣ Run frontend:
+-5️⃣ Run frontend:
 
-bash
-Copy code
-cd frontend
-npm run dev
-Now open http://localhost:5000 — you should see your todo app running 🎉
+-bash
+-Copy code
+-cd frontend
+-npm run dev
+-Now open http://localhost:5000 — you should see your todo app running 🎉
 
-🌍 Live Demo
-Frontend (Netlify):
-👉 https://assignment08tutedude.netlify.app/
+-🌍 Live Demo
+-Frontend (Netlify):
+-👉 https://assignment08tutedude.netlify.app/
 
-Backend (Render):
-👉 https://mern-todo-app-skhg.onrender.com
+-Backend (Render):
+-👉 https://mern-todo-app-skhg.onrender.com
 
 
-check the whole fullstack project:
-👉 https://assignment08tutedude.netlify.app/
+-check the whole fullstack project:
+-👉 https://assignment08tutedude.netlify.app/
 
 # screenshot
 
