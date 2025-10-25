@@ -23,7 +23,7 @@ await fetch(`${apiUrl}/${id}`,{ method:'DELETE'})
     setTodos(todos.filter(t =>t._id!== id))
   }
 const toggleComplete = async (id, completed) => {
-    const res = await fetch(`${API_URL}/${id}`, {
+    const res = await fetch(`${apiURL}/${id}`, {
       method: 'PUT',
       headers: { 'Content-Type':'application/json' },
       body: JSON.stringify({ completed: !completed })
@@ -32,7 +32,7 @@ const toggleComplete = async (id, completed) => {
     setTodos(todos.map(t => (t._id === id ? updated : t)))
   }
 const updateTodo = async (id, updatedData) => {
-const res = await fetch(`${API_URL}/${id}`, {
+const res = await fetch(`${apiUrl}/${id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(updatedData)
