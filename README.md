@@ -70,15 +70,11 @@ I used **CORS** so the React frontend (hosted on Netlify) can talk to the backen
 
 -4️⃣ Run backend:
 
--bash
--Copy code
 -cd backend
 -npm run dev
 
 -5️⃣ Run frontend:
 
--bash
--Copy code
 -cd frontend
 -npm run dev
 -Now open http://localhost:5000 — you should see your todo app running 🎉
