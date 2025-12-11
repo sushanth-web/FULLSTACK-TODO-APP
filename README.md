@@ -1,12 +1,12 @@
-# 📝 MERN To-Do App
+# MERN ToDo App Project
 
 
--Backend (Render):
--👉 https://mern-todo-app-skhg.onrender.com
+-Backend(Render):
+-https://mern-todo-app-skhg.onrender.com
 
 
 -check the whole fullstack project:
--👉 https://assignment08tutedude.netlify.app/
+-https://assignment08tutedude.netlify.app/
 
 # screenshot
 
